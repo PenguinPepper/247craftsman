@@ -1,10 +1,14 @@
 "use client"
-import { MapPin, Headset } from "lucide-react"
+import { MapPin, Headset, Menu } from "lucide-react"
 
 export default function Header() {
     return (
         <header>
             <section>
+                <h1> 24/7 MJ Welding & Painting</h1>
+            </section>
+            <Menu />
+            <section className="">
                 <section>
                     <MapPin />
                     <p>Location:</p>
