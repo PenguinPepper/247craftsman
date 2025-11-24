@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image"
 
 export default function Hero() {
     return (
@@ -9,6 +10,12 @@ export default function Hero() {
                 Precision, quality, and unmatched craftsmanship for every project.
                 Your trusted partner in welding and painting excellence.
             </p>
+            <Image
+                src="/mjhero.png"
+                alt="Welding and Painting Services"
+                width={600}
+                height={400}
+            />
             <section>
                 <button>Contact Us</button>
                 <button>Our Services</button>
