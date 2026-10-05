@@ -1,41 +1,42 @@
-"use client"
-import { Menu, MapPin, Headset } from "lucide-react";
+"use client";
 
+import Link from "next/link";
+import { Menu, X } from "lucide-react";
+import { useState } from "react";
 
-export default function HamburgerMenu() {
-    function handleMenuClick() {
-        // Logic to toggle menu visibility       
-    }
+type NavigationLink = {
+    label: string;
+    href: string;
+};
+
+export default function HamburgerMenu({ links }: { links: NavigationLink[] }) {
+    const [isOpen, setIsOpen] = useState(false);
+
     return (
-        <section className="lg:invisible">
-            <Menu onClick={handleMenuClick} />
-            <section>
-                <section>
-                    <MapPin />
-                    <p>Location:</p>
-                    <p>Gauteng South Africa</p>
-                </section>
-                <section>
-                    <Headset />
-                    <p>For enquiry:</p>
-                    <a href="tel: 0783588778"> 073 358 8778</a>
-                </section>
-                <section>
-                    <a>
-                        facebook
-                    </a>
-                    <a>
-                        instagram
-                    </a>
-                </section>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Gallery</li>
-                </ul>
-            </section>
-
-        </section>
-    )
+        <div className="relative ml-auto hidden max-sm:block">
+            <button
+                className="flex size-8 cursor-pointer items-center justify-center rounded border-0 bg-[#f27c08] p-0 text-white"
+                type="button"
+                aria-expanded={isOpen}
+                aria-controls="mobile-navigation"
+                aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"}
+                onClick={() => setIsOpen((open) => !open)}
+            >
+                {isOpen ? <X className="size-5" aria-hidden="true" /> : <Menu className="size-5" aria-hidden="true" />}
+            </button>
+            {isOpen && (
+                <nav id="mobile-navigation" className="absolute right-0 top-10 min-w-44 rounded-lg bg-white p-2 shadow-[0_0.5rem_1.25rem_rgb(0_0_0_/_18%)]" aria-label="Mobile navigation">
+                    <ul className="m-0 list-none p-0">
+                        {links.map((link) => (
+                            <li key={link.href}>
+                                <Link className="block rounded px-3.5 py-3 text-sm hover:bg-[#fff0df] hover:text-[#d96600] focus-visible:bg-[#fff0df] focus-visible:text-[#d96600]" href={link.href} onClick={() => setIsOpen(false)}>
+                                    {link.label}
+                                </Link>
+                            </li>
+                        ))}
+                    </ul>
+                </nav>
+            )}
+        </div>
+    );
 }
