@@ -48,7 +48,7 @@ function SocialLinks() {
 
 export default function Header() {
     return (
-        <header className="">
+        <header className="bg-[#24110d]">
             <section className="relative z-10 mx-auto mt-2 max-w-full  bg-white shadow-[0_0.25rem_0.75rem_rgb(0_0_0_/_12%)] max-lg:mx-6 max-sm:m-0 max-sm:rounded-none">
                 <div className="flex min-h-20 items-center gap-9 px-10 py-3.5 max-lg:gap-[1.125rem] max-lg:px-7 max-lg:py-3 max-sm:min-h-14 max-sm:px-4 max-sm:py-2">
                     <Brand />
