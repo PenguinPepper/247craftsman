@@ -29,7 +29,7 @@ export default function HamburgerMenu({ links }: { links: NavigationLink[] }) {
                     <ul className="m-0 list-none p-0">
                         {links.map((link) => (
                             <li key={link.href}>
-                                <Link className="block rounded px-3.5 py-3 text-sm hover:bg-[#fff0df] hover:text-[#d96600] focus-visible:bg-[#fff0df] focus-visible:text-[#d96600]" href={link.href} onClick={() => setIsOpen(false)}>
+                                <Link className="block rounded px-3.5 py-3 text-black text-sm hover:bg-[#fff0df] hover:text-black focus-visible:bg-[#fff0df] focus-visible:text-black" href={link.href} onClick={() => setIsOpen(false)}>
                                     {link.label}
                                 </Link>
                             </li>
