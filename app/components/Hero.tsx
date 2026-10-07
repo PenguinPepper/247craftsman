@@ -7,7 +7,7 @@ export default function Hero() {
     return (
         <section className="relative isolate overflow-hidden bg-[#24110d] text-white">
             <div className="mx-auto grid min-h-[34rem] max-w-7xl items-center gap-10 px-6 py-12 sm:px-10 lg:grid-cols-[0.82fr_1.18fr] lg:gap-4 lg:px-16 lg:py-14">
-                <div className="relative z-10 max-w-xl lg:pb-8">
+                <section className="relative z-10 max-w-xl lg:pb-8">
                     <h1 className="max-w-[22rem] text-4xl font-bold leading-[1.08] tracking-[-0.04em] sm:text-5xl lg:text-[3.25rem]">
                         Unleash the Power of Precision{" "}
                         <span className="text-[#f27c08]">Welding</span>
@@ -31,7 +31,7 @@ export default function Hero() {
                             View Service
                         </Link>
                     </div>
-                </div>
+                </section>
 
                 <div className="relative mx-auto h-[22rem] w-full max-w-[34rem] sm:h-[27rem] lg:h-[32rem] lg:max-w-[39rem]">
                     <div className="absolute left-[17%] top-[8%] h-[74%] w-[68%] rounded-xl border-2 border-[#f27c08] bg-white sm:rounded-2xl" />
