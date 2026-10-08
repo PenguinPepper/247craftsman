@@ -13,7 +13,7 @@ export default function HamburgerMenu({ links }: { links: NavigationLink[] }) {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="relative ml-auto hidden max-sm:block">
+        <section className="relative ml-auto hidden max-sm:block">
             <button
                 className="flex size-8 cursor-pointer items-center justify-center rounded border-0 bg-[#f27c08] p-0 text-white"
                 type="button"
@@ -37,6 +37,6 @@ export default function HamburgerMenu({ links }: { links: NavigationLink[] }) {
                     </ul>
                 </nav>
             )}
-        </div>
+        </section>
     );
 }
