@@ -20,7 +20,7 @@ export default function Footer() {
 
 
     return (
-        <footer className="bg-[#24110d] text-[#21140f]">
+        <footer className="text-[#21140f]">
             <section className="mx-auto max-w-full overflow-hidden bg-white">
                 <div className="grid min-h-[18.5rem] grid-cols-[minmax(0,1fr)_minmax(20rem,31.5rem)] items-center gap-12 px-[clamp(2rem,9vw,7.5rem)] py-8 max-lg:grid-cols-[minmax(0,1fr)_minmax(16rem,45%)] max-lg:gap-8 max-lg:px-10 max-sm:min-h-0 max-sm:grid-cols-1 max-sm:gap-6 max-sm:px-5 max-sm:pb-6 max-sm:pt-12">
                     <div className="max-w-[31rem]">
