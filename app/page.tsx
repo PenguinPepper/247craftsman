@@ -1,3 +1,4 @@
+"use client"
 import About from "./components/About";
 import Gallery from "./components/Gallery";
 import Hero from "./components/Hero";
@@ -6,7 +7,7 @@ import Monial from "./components/Tstimonial";
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-white">
       <Hero />
       <About />
       <Services />
