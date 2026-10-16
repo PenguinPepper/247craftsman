@@ -19,7 +19,7 @@ export default function About() {
                     <h2 className="mt-2 text-2xl font-bold leading-tight sm:text-3xl">
                         MJ <span className="text-[#f27c08]">Welding</span> and Painting
                     </h2>
-                    <p className="mt-4 text-[0.6875rem] leading-[1.7] text-black/80 sm:text-xs">
+                    <p className="mt-4 text-s leading-[1.7] text-black/80 sm:text-s">
                         At MJ Welding & Painting, we ignite creativity and fortify structures around the clock! With our custom welding services we'll provide you with sleek modern designs that are mended with precision to provide lasting strength. Paired with our quality painting services we'll help you transform your living spaces with our expert brushstrokes. Discover the fusion of artistry and reliability at MJ Welding & Painting.
                     </p>
                 </div>
