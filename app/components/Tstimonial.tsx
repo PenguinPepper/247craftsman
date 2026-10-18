@@ -54,7 +54,7 @@ export default function Monial() {
                                 <Icon aria-hidden="true" className="size-4" strokeWidth={2} />
                             </span>
                             <h3 className="mt-4 text-sm font-bold">{title}</h3>
-                            <p className="mt-2 max-w-xs text-[0.625rem] leading-[1.55] text-black/60">
+                            <p className="mt-2 max-w-xs text-s leading-[1.55] text-black/60">
                                 {description}
                             </p>
                         </li>
