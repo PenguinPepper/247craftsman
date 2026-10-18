@@ -9,13 +9,13 @@ export default function Hero() {
             <div className="mx-auto grid min-h-[34rem] max-w-7xl items-center gap-10 px-6 py-12 sm:px-10 lg:grid-cols-[0.82fr_1.18fr] lg:gap-4 lg:px-16 lg:py-14">
                 <section className="relative z-10 max-w-xl lg:pb-8">
                     <h1 className="max-w-[22rem] text-4xl font-bold leading-[1.08] tracking-[-0.04em] sm:text-5xl lg:text-[3.25rem]">
-                        Unleash the Power of Precision{" "}
-                        <span className="text-[#f27c08]">Welding</span>
+                        Unleash the Power of Precision
+                        <span className="text-[#f27c08]"> Craftsman</span>
                     </h1>
-                    <p className="mt-5 max-w-[28rem] text-xs leading-[1.55] text-white/75 sm:text-sm">
-                        Expert welding solutions tailored to your needs.
+                    <p className="mt-5 max-w-[28rem] text-s leading-[1.55] text-white/75 sm:text-sm">
+                        Expert solutions tailored to your needs.
                         Precision, durability, and unmatched craftsmanship for
-                        every project. Your trusted welding partner.
+                        every project. Your trusted partner.
                     </p>
                     <div className="mt-7 flex flex-wrap gap-3">
                         <Link
@@ -44,7 +44,7 @@ export default function Hero() {
                         priority
                     />
                     <div className="absolute left-[1%] top-[42%] z-20 flex items-center gap-2 rounded-md bg-[#f27c08] px-3 py-2 text-white shadow-lg sm:left-[4%] sm:px-4">
-                        <strong className="text-lg leading-none sm:text-xl">200K+</strong>
+                        <strong className="text-lg leading-none sm:text-xl">200+</strong>
                         <span className="border-l border-white/50 pl-2 text-[0.5rem] leading-tight">
                             <span className="block font-bold">Happy</span>
                             <span className="block">Customers</span>
@@ -56,7 +56,7 @@ export default function Hero() {
                                 GM
                             </span>
                             <div>
-                                <p className="text-[0.5rem] font-bold leading-none">Grace Mercy</p>
+                                <p className="text-[0.5rem] font-bold leading-none">Patrick Ndlovu</p>
                                 <p className="mt-1 text-[0.5rem] tracking-[0.16em] text-[#f27c08]">★★★★★</p>
                             </div>
                         </div>
