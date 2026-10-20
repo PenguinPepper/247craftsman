@@ -3,6 +3,20 @@
 import Image from "next/image";
 import Link from "next/link";
 
+const BUSINESS_PHONE = "0733588778";
+const DEFAULT_MESSAGE =
+    "Hello, I have an inquiry about your services.";
+
+function buildWhatsAppLink(phone: string, message: string) {
+    const digits = phone.replace(/\D/g, "");
+    const normalizedPhone = digits.startsWith("0")
+        ? `27${digits.slice(1)}`
+        : digits;
+    const encodedMessage = encodeURIComponent(message);
+
+    return `https://wa.me/${normalizedPhone}?text=${encodedMessage}`;
+}
+
 export default function Hero() {
     return (
         <section className="relative isolate overflow-hidden bg-[#24110d] text-white">
@@ -20,7 +34,7 @@ export default function Hero() {
                     <div className="mt-7 flex flex-wrap gap-3">
                         <Link
                             className="rounded bg-[#f27c08] px-5 py-2.5 text-[0.625rem] font-bold text-white shadow-[0_0.5rem_1.25rem_rgb(242_124_8_/_18%)] transition hover:bg-[#d96600] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#f27c08]"
-                            href="#contact"
+                            href={buildWhatsAppLink(BUSINESS_PHONE, DEFAULT_MESSAGE)}
                         >
                             Contact Us
                         </Link>
