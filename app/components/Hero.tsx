@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const BUSINESS_PHONE = "0733588778";
+const BUSINESS_PHONE = "0732154689";
 const DEFAULT_MESSAGE =
     "Hello, I have an inquiry about your services.";
 
@@ -51,7 +51,7 @@ export default function Hero() {
                     <div className="absolute left-[17%] top-[8%] h-[74%] w-[68%] rounded-xl border-2 border-[#f27c08] bg-white sm:rounded-2xl" />
                     <Image
                         className="absolute inset-x-[7%] bottom-[-8%] z-10 h-[116%] w-[86%] object-contain object-bottom sm:inset-x-[8%] sm:w-[84%] lg:inset-x-[3%] lg:w-[94%]"
-                        src="/mjhero.png"
+                        src="/hero.png"
                         alt="Welder working on a metal project"
                         width={1024}
                         height={1536}

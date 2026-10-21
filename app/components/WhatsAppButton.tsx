@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-const BUSINESS_PHONE = "0733588778";
+const BUSINESS_PHONE = "0732154689";
 const DEFAULT_MESSAGE =
   "Hello, I have an inquiry about your services.";
 
