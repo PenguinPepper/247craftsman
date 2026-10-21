@@ -17,8 +17,6 @@ The client required a modern web presence to reach new clients that are searchin
 
 ---
 
-## Technical Stack & Architecture
-
 * **Frontend Framework:** Next.js (React.js)
 * **Styling Engine:** Tailwind CSS / Styled Components
 * **State Management:** React Context API / Hooks
@@ -28,6 +26,7 @@ The client required a modern web presence to reach new clients that are searchin
 1. **Performance Optimization:** Implemented Next.js Image optimization (`next/image`) alongside lazy-loading to keep initial bundle sizes low.
 2. **Modular Code Design:** Built a completely reusable library of UI components (buttons, input fields, navigation sheets) to ensure scaling the site layout is effortless.
 3. **Strict Client-Side Validation:** Form inputs are sanitised and validated on the client side before triggering submission states.
+4. **Lead Capture CTA:** Added a floating WhatsApp click-to-chat button connected to the business number for direct customer enquiries.
 
 ---
 
