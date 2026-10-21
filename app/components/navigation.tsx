@@ -19,14 +19,14 @@ function ContactDetails() {
                 <MapPin className="size-5 text-[#f27c08] [stroke-width:2.2]" aria-hidden="true" />
                 <div className="flex flex-col gap-0.5">
                     <span className="text-[0.625rem] text-[#444]">Location:</span>
-                    <strong className="whitespace-nowrap text-[0.625rem] font-bold text-[#1e1e1e]">Gauteng South Africa</strong>
+                    <strong className="whitespace-nowrap text-[0.625rem] font-bold text-[#1e1e1e]">Gauteng, South Africa</strong>
                 </div>
             </div>
             <div className="flex items-center gap-2">
                 <Headset className="size-5 text-[#f27c08] [stroke-width:2.2]" aria-hidden="true" />
                 <div className="flex flex-col gap-0.5">
                     <span className="text-[0.625rem] text-[#444]">For enquiry:</span>
-                    <a className="whitespace-nowrap text-[0.625rem] font-bold text-[#1e1e1e]" href="tel:0733588778">073 358 8778</a>
+                    <a className="whitespace-nowrap text-[0.625rem] font-bold text-[#1e1e1e]" href="tel:0733588778">073 215 4689</a>
                 </div>
             </div>
         </div>
