@@ -25,7 +25,7 @@ export default function Footer() {
                 <div className="grid min-h-[18.5rem] grid-cols-[minmax(0,1fr)_minmax(20rem,31.5rem)] items-center gap-12 px-[clamp(2rem,9vw,7.5rem)] py-8 max-lg:grid-cols-[minmax(0,1fr)_minmax(16rem,45%)] max-lg:gap-8 max-lg:px-10 max-sm:min-h-0 max-sm:grid-cols-1 max-sm:gap-6 max-sm:px-5 max-sm:pb-6 max-sm:pt-12">
                     <div className="max-w-[31rem]">
                         <h3 className="m-0 text-[clamp(1.35rem,2.2vw,1.75rem)] font-bold leading-tight">
-                            MJ Welding & Painting:24/7 Craftsmanship Hub!
+                            24/7 Craftsmanship Hub!
                         </h3>
                         <p className="mt-2.5 max-w-[29rem] text-s leading-[1.45] text-[#68615e]">
                             In need of a new paint job? Or have a maintaince inqury submit it in the from below and we will get back to you!
@@ -80,7 +80,7 @@ export default function Footer() {
 
                     </div>
                     <div className="flex items-center justify-between border-t border-[#e9c59f] py-3 text-[0.5625rem] text-[#57504c] max-sm:block max-sm:py-3.5">
-                        <p className="m-0">©2024 M.J Welding and Painting. All Rights Reserved.</p>
+                        <p className="m-0">©2024 All Rights Reserved.</p>
                         <div className="flex gap-2.5 max-sm:order-3">
                             <a
                                 className="flex size-7 items-center justify-center rounded bg-[#f27c08] text-white transition hover:bg-[#d96600] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#f27c08]"
